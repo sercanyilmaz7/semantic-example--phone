@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;  // Tüm body e verince hepsini ortaladi.Daha sonra ezebilirsin.
+}
+
+header{
+    background-color: red;
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+}
+
+nav{
+    background-color: rgba(234, 0, 255, 0.39);
+    background-color: hsla(295, 100%, 50%, 0.558);
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/***a ler özel bir elemnt oldugu için parentten renk almazlar**/
+
+nav a{
+    color: aliceblue;
+    text-decoration: overline;  /*?üstü çizgili*/
+    text-decoration: underline; /*? altı çizgili*/
+    text-decoration: line-through; /*? üzeri çizgili*/
+    text-decoration: none;
+}
+
+/* nav a:link {
+    color:green;
+}
+
+nav a:visited {
+    color: yellow;
+} */
+
+nav a:hover {
+    color: red;
+    text-decoration: underline
+}
+
+nav a:active{
+    color: blue;
+}
+
+figcaption{
+    margin: 20px 0;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
